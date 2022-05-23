@@ -80,4 +80,11 @@ public class Email {
     public int getMailboxCapacity() { return mailboxCapacity; }
     public String getAlternateEmail() { return alternateEmail; }
     public String getPassword() { return password; }
+
+    // Showing Info
+    public String showInfo() {
+        return "DISPLAY NAME: " + firstName + lastName +
+                "COMPANY EMAIL: " + email +
+                "MAILBOX CAPACITY: " + mailboxCapacity + "mb";
+    }
 }
