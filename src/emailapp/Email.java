@@ -13,6 +13,7 @@ public class Email {
     public Email(String firstName, String lastName){
         this.firstName = firstName;
         this.lastName = lastName;
+        System.out.println("EMAIL CREATED: " + this.firstName + " " + this.lastName);
     }
 
     // Ask for the department
